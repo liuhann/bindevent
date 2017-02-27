@@ -1,0 +1,21 @@
+{
+  "source": {
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_",
+    "include": [
+      "./README.md",
+      "./ChangeLog.md",
+      "./src/entry.js"
+    ],
+    "exclude": [
+    ]
+  },
+  "plugins": ["plugins/markdown"],
+  "markdown": {
+    "tags": ["foo", "bar"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  }
+}

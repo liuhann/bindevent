@@ -1,0 +1,20 @@
+{
+  "name": "bind-on-events",
+  "version": "1.0.5",
+  "description": "bind elment events by xbn-on-xxx attributes",
+  "main": "src/entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/liuhann/bindevent"
+    },
+  "author": "liuhan",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "lodash.isfunction": "^3.0.8"
+  },
+  "devDependencies": {}
+}
